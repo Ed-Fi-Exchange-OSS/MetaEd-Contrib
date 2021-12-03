@@ -1,0 +1,3 @@
+Interchange ExamReimbursement
+    documentation "Exam reimbursement."
+    domain entity ExamReimbursementRequest

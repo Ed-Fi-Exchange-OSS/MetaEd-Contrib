@@ -1,0 +1,11 @@
+Interchange EdFi.StudentProgram additions
+    association Student21stCenturyLearningCenterGrantProgramAssociation
+    association StudentADSISProgramAssociation
+    association StudentCEISProgramAssociation
+    association StudentDistanceLearnerProgramAssociation
+    association StudentEarlyChildhoodScreeningProgramAssociation
+    association StudentEarlyEducationProgramAssociation
+    association StudentGiftedTalentedProgramAssociation
+    association StudentPSEOConcurrentProgramAssociation
+    association StudentPSEOProgramAssociation
+    association StudentSection504PlanProgramAssociation

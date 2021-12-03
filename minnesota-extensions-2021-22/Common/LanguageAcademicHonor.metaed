@@ -1,0 +1,34 @@
+Common LanguageAcademicHonor
+    documentation "Student data elements needed to collect bilingual seal, multi-lingual academic honors."
+    descriptor EdFi.AchievementCategory
+        documentation "The category of achievement attributed to the learner."
+        is required
+    descriptor EdFi.AcademicHonorCategory
+        documentation "A designation of the type of academic distinctions earned by or awarded to the student."
+        is part of identity
+    shared string EdFi.HonorDescription
+        documentation "A description of the type of academic distinctions earned by or awarded to the individual."
+        is part of identity
+    date HonorAwardDate
+        documentation "The date the honor was awarded or earned."
+        is optional
+    date HonorAwardExpiresDate
+        documentation "Date on which the award expires."
+        is optional
+    descriptor EdFi.Language
+        documentation "The language (non-English) in which the student earned this honor. For bilingual seals or world languages proficiency certificate, one language; for multilingual seals, multiple languages."
+        is required collection
+    descriptor EdFi.GradeLevel
+        documentation "The grade level of the student when tested for award."
+        is required
+        role name Assessed
+    enumeration EdFi.SchoolYear
+        documentation "The school year when the student was tested for award."
+        is required
+        role name Assessed
+    descriptor EdFi.AssessmentCategory
+        documentation "The skills assessment used to test for award."
+        is required
+    shared string EdFi.AssessmentTitle
+        documentation "The title/name of the skills assessment administered."
+        is optional

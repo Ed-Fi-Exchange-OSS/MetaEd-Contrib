@@ -1,0 +1,8 @@
+Association EdFi.StudentNeglectedOrDelinquentProgramAssociation additions
+    descriptor NeglectedOrDelinquentProgramOutcome
+        documentation "Neglected or delinquent program outcome."
+        is optional
+    descriptor NeglectedOrDelinquentProgramOutcome
+        documentation "Neglected or delinquent exited-program outcome."
+        is optional
+        role name Exited

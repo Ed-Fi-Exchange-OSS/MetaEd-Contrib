@@ -1,0 +1,3 @@
+Interchange EdFi.StudentAssessment additions
+    domain entity StudentAssessmentPrecode
+    domain entity StudentAssessmentPrecodeSite
