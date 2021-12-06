@@ -1,7 +1,7 @@
 Domain Entity PersonMedicalAlert
     documentation "Defines the codes that describe a person's known medical conditions."
-    domain entity Person
-        documentation "The person the medical alert relates to."
+    domain entity EdFi.Person
+        documentation "The person receiving the medical screening."
         is part of identity
     domain entity MedicalAlert
         documentation "Reference the MedicalAlert associated with a student."
@@ -9,12 +9,9 @@ Domain Entity PersonMedicalAlert
     date StartDate
         documentation "Identifies the start date of a medical alert."
         is part of identity
-    shared integer Sequence
-        documentation "The sequence number for prioritizing medical alerts."
-        is part of identity
     date EndDate
         documentation "Identifies the end date for a medical alert."
         is optional
-    shared string Description
-        documentation "Comments on medical conditions and alerts."
+    shared integer Sequence
+        documentation "The sequence number for prioritizing medical alerts."
         is optional

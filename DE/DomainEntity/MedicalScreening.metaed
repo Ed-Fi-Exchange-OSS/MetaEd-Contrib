@@ -1,6 +1,6 @@
 Domain Entity MedicalScreening
     documentation "A person was screened for a particular issue."
-    domain entity Person
+    domain entity EdFi.Person
         documentation "The person receiving the medical screening."
         is part of identity
     descriptor MedicalTestCategory
@@ -12,10 +12,18 @@ Domain Entity MedicalScreening
     bool AthleticStatus
       documentation "If true, then indicates this screening is for the athletic exam."
       is optional
-    descriptor GradeLevel
+    descriptor EdFi.GradeLevel
       documentation "Grade level if person is student."
       is optional
-      domain entity School
-        documentation "School where screening occured."
-        is optional
-        with context SchoolOfService
+    domain entity EdFi.School
+      documentation "School where screening occured."
+      is optional
+      role name SchoolOfService
+    domain entity EdFi.EducationOrganization
+      documentation "EducationOrganization where screening occured."
+      is optional
+      role name Screening
+    descriptor Location
+      documentation "Screening location where screening occured."
+      is optional
+      role name Screening
