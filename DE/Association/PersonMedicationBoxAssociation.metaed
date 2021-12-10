@@ -1,6 +1,6 @@
 Association PersonMedicationBoxAssociation
     documentation "This association indicates a medication from a box issued to a person."
-    domain entity Person
+    domain entity EdFi.Person
         documentation "Person receiving medication."
     domain entity MedicationBox
         documentation "Medication Box dispensed."

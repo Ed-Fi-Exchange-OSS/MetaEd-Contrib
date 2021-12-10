@@ -1,9 +1,9 @@
 Domain Entity CIPCourse
     documentation "Identifies courses that are CIP."
-    domain entity LocalEducationAgency
+    domain entity EdFi.LocalEducationAgency
         documentation "The school district number."
         is part of identity
-    shared string CIPCode
+    shared string EdFi.CIPCode
         documentation "Indicates the code for the CIP course."
         is part of identity
     integer Pathway

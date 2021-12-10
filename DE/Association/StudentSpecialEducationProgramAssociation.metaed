@@ -1,4 +1,4 @@
-Association StudentSpecialEducationProgramAssociation additions
+Association EdFi.StudentSpecialEducationProgramAssociation additions
     descriptor DiplomaCertificateCategory
         documentation "Indicates whether student is working towards a diploma or certificate."
         is optional
@@ -38,7 +38,7 @@ Association StudentSpecialEducationProgramAssociation additions
     descriptor ServiceStatus
         documentation "Indicates the special education service status."
         is optional
-    domain entity School
+    domain entity EdFi.School
         documentation "Identifies the non-public facility code."
         is optional
-        with context Private
+        role name Private

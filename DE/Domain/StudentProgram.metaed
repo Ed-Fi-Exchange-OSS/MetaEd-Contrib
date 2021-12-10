@@ -5,11 +5,11 @@ Domain StudentProgram
     domain entity Staff
     domain entity Program
     domain entity School
-    association StudentProgramAssociation
-    association StaffProgramAssociation
-    association StudentSpecialEducationProgramAssociation
-    association StudentLanguageInstructionProgramAssociation
+    association EdFi.StudentProgramAssociation
+    association EdFi.StaffProgramAssociation
+    association EdFi.StudentSpecialEducationProgramAssociation
+    association EdFi.StudentLanguageInstructionProgramAssociation
     association Student504ProgramAssociation
     association StudentEarlyChildhoodProgramAssociation
     common LanguageImmersion
-    common CTEProgram
+    common EdFi.CTEProgram
