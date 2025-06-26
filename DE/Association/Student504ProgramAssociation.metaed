@@ -1,10 +1,10 @@
 Association Student504ProgramAssociation based on EdFi.GeneralStudentProgramAssociation
     documentation "This association represents the 504 program(S) that a student participates in or receives services from."
-    bool AccommodatioPlan
+    bool AccommodationPlan
         documentation "Indicates if student receives an accommodation plan."
         is optional
     descriptor EdFi.Disability
-        documentation "Indicates the disability."
+        documentation "Indicates the disability.Depricated"
         is optional
     date InitialDNQDate
         documentation "Indicates the initial DNQ date."
@@ -14,4 +14,7 @@ Association Student504ProgramAssociation based on EdFi.GeneralStudentProgramAsso
         is optional
     date MeetingDate
         documentation "Indicates the meeting date."
+        is optional
+    descriptor Section504Disability
+        documentation "Indicates the section 504 disability."
         is optional

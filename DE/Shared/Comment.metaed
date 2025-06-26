@@ -1,4 +1,4 @@
-Shared String Comment
-    documentation "Indicates the comment."
+Shared String Comment [3042]
+    documentation "Additional information provided by the responder about the question in the survey."
     min length 1
     max length 1024

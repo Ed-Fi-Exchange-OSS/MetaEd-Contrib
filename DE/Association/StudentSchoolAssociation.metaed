@@ -2,3 +2,14 @@ Association EdFi.StudentSchoolAssociation additions
     descriptor EnrollmentType
         documentation "Indicates the enrollment type."
         is optional
+    domain entity EdFi.School
+        documentation "Identifies the Next Year public facility code."
+        is optional
+        role name NextYear
+    descriptor EdFi.GradeLevel
+        documentation "Indicates the Next Year Grade level."
+        is optional
+        role name NextYear
+    descriptor ChoiceBasis
+        documentation "Indicates the option of Choise Basis."
+        is optional
