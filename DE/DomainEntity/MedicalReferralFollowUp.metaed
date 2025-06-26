@@ -1,6 +1,6 @@
 Domain Entity MedicalReferralFollowUp
     documentation "Referral followup information for a person for a specific type of exam."
-    domain entity Person
+    domain entity EdFi.Person
         documentation "The person receiving the discipline action."
         is part of identity
     descriptor FollowupCategory

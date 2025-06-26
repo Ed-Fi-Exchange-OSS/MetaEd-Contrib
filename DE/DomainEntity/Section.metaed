@@ -1,5 +1,5 @@
-Domain Entity Section additions
-    shared string Description
+Domain Entity EdFi.Section additions
+    shared string EdFi.Description
         documentation "The description of the part of the course section."
         is optional
     common SubjectArea

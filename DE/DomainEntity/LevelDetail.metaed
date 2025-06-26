@@ -1,6 +1,6 @@
 Domain Entity LevelDetail
     documentation "Indicates the detail associated with a level number."
-    domain entity School
+    domain entity EdFi.School
         documentation "Provide user information to lookup and link to an existing school record."
         is part of identity
     integer LevelNumber
@@ -9,10 +9,10 @@ Domain Entity LevelDetail
     shared string Mark
         documentation "Indicates the mark associated with a level number."
         is part of identity
-    shared string Description
+    shared string EdFi.Description
         documentation "Identifies the explanation for the level number"
         is optional
-        with context Level
+        role name Level
     bool PassingMark
         documentation "Indicates whether mark is considered passing."
         is optional
