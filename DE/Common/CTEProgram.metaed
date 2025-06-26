@@ -2,9 +2,6 @@ Common EdFi.CTEProgram additions
     bool PathwayConcentrator
         documentation "Indicates if this pathway is the concentrator."
         is optional
-    descriptor Certification
-        documentation "Identifies the certification received for the pathway."
-        is optional
     bool LocalArticulation
         documentation "Local Articualtion agreement indicator"
         is optional
