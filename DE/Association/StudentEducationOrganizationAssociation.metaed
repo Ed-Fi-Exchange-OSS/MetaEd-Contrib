@@ -27,5 +27,8 @@ Association EdFi.StudentEducationOrganizationAssociation additions
         documentation "The set of elements that describes an address, including the street address, city, state, and ZIP code."
         is optional collection
     enumeration EdFi.SchoolYear
-      documentation "The identifier for the school year associated with the Calendar."
-      is optional
+         documentation "The identifier for the school year associated with the Calendar."
+        is optional
+    shared string PriorId 
+        documentation "A unique prior alphanumeric code assigned to a student."
+        is optional collection

@@ -1,0 +1,2 @@
+Descriptor ImmunizationExemptReason
+    documentation "Defines the reasons a person is exempt from an immunization."
