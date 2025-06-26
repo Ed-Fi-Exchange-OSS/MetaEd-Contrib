@@ -5,6 +5,3 @@ Domain Entity EdFi.ClassPeriod additions
     shared string EdFi.Description
         documentation "Description of the attendance period."
         is optional
-    common Cycle
-        documentation "Indicates a cycle day."
-        is optional collection

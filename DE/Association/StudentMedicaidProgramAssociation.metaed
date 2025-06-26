@@ -1,0 +1,9 @@
+Association StudentMedicaidProgramAssociation based on EdFi.GeneralStudentProgramAssociation
+    documentation "This association represents the Medicaid program(S) that a student participates in or receives services from."
+    bool EligibilityStatus
+        documentation "Indicates if student receives an Medicaid program."
+        is required
+    string StudentMCINumber
+        documentation " Master client index from DHSS"
+        is required
+        max length 60

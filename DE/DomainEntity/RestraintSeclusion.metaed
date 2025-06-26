@@ -51,10 +51,10 @@ Domain Entity RestraintSeclusion
         is optional
     date ParentGuardianNotifiedDate
         documentation "Indicates the date on which the parent or guardian was notified."
-        is required
+        is optional
     time ParentGuardianNotifiedTime
         documentation "Indicates the time of day the parent or guardian was notified about the restarint secluson event."
-        is required
+        is optional
     shared string Detail
         documentation "Indicates the policy Change detail regrading the restraint seclusion event."
         is optional
@@ -76,7 +76,6 @@ Domain Entity RestraintSeclusion
         documentation "Indicates the treatment provided to staff injured during restraint secluson event."
         is optional
         role name Staff
-
     common StaffProvidingRestraint
         documentation "Identifies the staff responsible for providing restarint."
         is required collection

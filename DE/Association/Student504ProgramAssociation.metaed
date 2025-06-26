@@ -3,9 +3,6 @@ Association Student504ProgramAssociation based on EdFi.GeneralStudentProgramAsso
     bool AccommodationPlan
         documentation "Indicates if student receives an accommodation plan."
         is optional
-    descriptor EdFi.Disability
-        documentation "Indicates the disability.Depricated"
-        is optional
     date InitialDNQDate
         documentation "Indicates the initial DNQ date."
         is optional

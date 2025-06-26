@@ -1,7 +1,4 @@
 Association EdFi.StudentEducationOrganizationAssociation additions
-    descriptor ChoiceCategory
-        documentation "Indicates the type of choice transfer, if student transfered."
-        is optional
     bool FerpaName
         documentation "Indicates the FERPA privacy flag for student's name."
         is optional
@@ -19,12 +16,6 @@ Association EdFi.StudentEducationOrganizationAssociation additions
         is optional
     common Multiliteracy
         documentation "Indicates if the student received a multiliteracy award."
-        is optional collection
-    common Scholarship
-        documentation "Indicates if a student received a scholarship for college."
-        is optional collection
-    common extension EdFi.Address
-        documentation "The set of elements that describes an address, including the street address, city, state, and ZIP code."
         is optional collection
     enumeration EdFi.SchoolYear
          documentation "The identifier for the school year associated with the Calendar."

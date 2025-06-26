@@ -11,5 +11,6 @@ Domain StudentProgram
     association EdFi.StudentLanguageInstructionProgramAssociation
     association Student504ProgramAssociation
     association StudentEarlyChildhoodProgramAssociation
+    association StudentMedicaidProgramAssociation
     common LanguageImmersion
     common EdFi.CTEProgram

@@ -1,7 +1,4 @@
 Association EdFi.StudentParentAssociation additions
-    descriptor EdFi.ContactType
-        documentation "Indicates the type of contact it is for this student."
-        is optional
     domain entity EdFi.LocalEducationAgency
         documentation "Indicates the district reference for Parent."
         is optional

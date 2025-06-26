@@ -3,7 +3,7 @@ Domain Entity PersonImmunization
     domain entity EdFi.Person
         documentation "Person being immunized."
         is part of identity
-    descriptor ImmunizationCode
+    descriptor Immunization
       documentation inherited
       is part of identity
    date ImmunizationDate

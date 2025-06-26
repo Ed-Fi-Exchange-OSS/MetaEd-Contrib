@@ -3,9 +3,6 @@ Common Institution
     domain entity EdFi.PostSecondaryInstitution
         documentation "Identifies the post secondary instituion student applied to."
         is part of identity
-    descriptor AcceptanceStatus
-        documentation "Indicates the acceptance status of the post secondary institution for the student."
-        is optional
     date DateTranscriptMailed
         documentation "indicates the date the student transcript was mailed to the post secondary instituion."
         is optional
